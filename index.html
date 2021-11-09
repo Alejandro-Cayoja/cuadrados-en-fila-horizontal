@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 1020px;
+        }
+        .container .box{
+            background-color: red;
+            display: inline-block;
+            position: relative;
+            list-style: none;
+            width: 250px;
+            height: 250px;
+        }
+        #dife{    
+            background-color: black;
+            color: white;
+        }
+        h3{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 class="box">Uno</h3>
+        <h3 class="box" id="dife">Dos</h3>
+        <h3 class="box">Tres</h3>
+        <h3 class="box">Cuatro</h3>
+
+    </div>
+</body>
+</html>
